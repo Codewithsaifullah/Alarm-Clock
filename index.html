@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alarm Clock</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="clock">
+  <div class="time" id="time"></div>
+  <input type="time" class="alarm-input" id="alarmTime">
+  <button class="alarm-btn" onclick="setAlarm()">Set Alarm</button>
+  <button class="mode-btn" onclick="toggleMode()">Light Mode</button>
+</div>
+
+<audio id="alarmSound" src="https://www.soundjay.com/button/beep-01a.mp3" preload="auto"></audio>
+
+<script src="./script.js"></script>
+</body>
+</html>
